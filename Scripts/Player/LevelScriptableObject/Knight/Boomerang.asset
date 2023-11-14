@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c42bf7ebbc3d14aa077b46924d1fd6, type: 3}
+  m_Name: Boomerang
+  m_EditorClassIdentifier: 
+  skillType: 0
+  levels:
+  - variables:
+    - textName: Damage
+      value: 1
+    - textName: Speed
+      value: 12
+    - textName: Duration
+      value: 0.7
+    - textName: Durability
+      value: 99
+    - textName: Size
+      value: 1
+    - textName: Slowness
+      value: 5
+    - textName: Cooldown
+      value: 1
+    levelText: []
+  - variables:
+    - textName: Damage
+      value: 2
+    - textName: Speed
+      value: 14
+    - textName: Duration
+      value: 0.8
+    - textName: Durability
+      value: 99
+    - textName: Size
+      value: 1
+    - textName: Slowness
+      value: 5
+    - textName: Cooldown
+      value: 1
+    levelText:
+    - Damage&+1
+    - Boomerang Speed&+2
+    - Durability&+1
+  - variables:
+    - textName: Damage
+      value: 2
+    - textName: Speed
+      value: 14
+    - textName: Duration
+      value: 0.9
+    - textName: Durability
+      value: 4
+    - textName: Size
+      value: 1
+    - textName: Slowness
+      value: 5
+    - textName: Cooldown
+      value: 0.9
+    levelText:
+    - Distance&+10%
+    - Durability&+1
+    - Cooldown&-1s
+  - variables:
+    - textName: Damage
+      value: 3
+    - textName: Speed
+      value: 16
+    - textName: Duration
+      value: 0.9
+    - textName: Durability
+      value: 5
+    - textName: Size
+      value: 1.2
+    - textName: Slowness
+      value: 5
+    - textName: Cooldown
+      value: 0.9
+    levelText:
+    - Damage&+1
+    - Boomerang Speed&+2
+    - Durability&+1
+  - variables:
+    - textName: Damage
+      value: 3
+    - textName: Speed
+      value: 16
+    - textName: Duration
+      value: 1
+    - textName: Durability
+      value: 5
+    - textName: Size
+      value: 1.2
+    - textName: Slowness
+      value: 10
+    - textName: Cooldown
+      value: 0.8
+    levelText:
+    - Slowdown Rate&-5%
+    - Distance&+10%
+    - Cooldown&-1s
+  - variables:
+    - textName: Damage
+      value: 4
+    - textName: Speed
+      value: 18
+    - textName: Duration
+      value: 1
+    - textName: Durability
+      value: 6
+    - textName: Size
+      value: 1.2
+    - textName: Slowness
+      value: 10
+    - textName: Cooldown
+      value: 0.8
+    levelText:
+    - Damage&+1
+    - Boomerang Speed&+2
+    - Durability&+1
+  - variables:
+    - textName: Damage
+      value: 4
+    - textName: Speed
+      value: 18
+    - textName: Duration
+      value: 1.1
+    - textName: Durability
+      value: 1.1
+    - textName: Size
+      value: 1.44
+    - textName: Slowness
+      value: 10
+    - textName: Cooldown
+      value: 0.7
+    levelText:
+    - Distance&+10%
+    - Size&+20%
+    - Cooldown&-1s
+  - variables:
+    - textName: Damage
+      value: 5
+    - textName: Speed
+      value: 20
+    - textName: Duration
+      value: 1.1
+    - textName: Durability
+      value: 7
+    - textName: Size
+      value: 1.44
+    - textName: Slowness
+      value: 20
+    - textName: Cooldown
+      value: 0.7
+    levelText:
+    - Damage&+1
+    - Boomerang Speed&+2
+    - Slowdown Rate&-10%
+  - variables:
+    - textName: Damage
+      value: 5
+    - textName: Speed
+      value: 20
+    - textName: Duration
+      value: 1.2
+    - textName: Durability
+      value: 8
+    - textName: Size
+      value: 1.44
+    - textName: Slowness
+      value: 20
+    - textName: Cooldown
+      value: 0.6
+    levelText:
+    - Distance&+10%
+    - Durability&+1
+    - Cooldown&-1s
+  - variables:
+    - textName: Damage
+      value: 6
+    - textName: Speed
+      value: 22
+    - textName: Duration
+      value: 1.2
+    - textName: Durability
+      value: 9
+    - textName: Size
+      value: 1.73
+    - textName: Slowness
+      value: 20
+    - textName: Cooldown
+      value: 0.6
+    levelText:
+    - Damage&+1
+    - Boomerang Speed&+2
+    - Durability&+1
+  - variables:
+    - textName: Damage
+      value: 7
+    - textName: Speed
+      value: 22
+    - textName: Duration
+      value: 1.2
+    - textName: Durability
+      value: 999
+    - textName: Size
+      value: 1.73
+    - textName: Slowness
+      value: 25
+    - textName: Cooldown
+      value: 5
+    levelText:
+    - Damage&+1
+    - Durability&Unlimited
+    - Cooldown&-1s

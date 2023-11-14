@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59a6931fa0740c48bc52d4968a5e9ab, type: 3}
+  m_Name: Cobra
+  m_EditorClassIdentifier: 
+  walkSpeed: 3
+  health: 2
+  attackSpeed: 1
+  attackDamage: 3
+  enemyMaterial:
+  - {fileID: 2100000, guid: 4ab7cb3af4c378d469abd85896e5ed11, type: 2}
+  - {fileID: 2100000, guid: d2cfdfee9d6eb6f4792407529063c77c, type: 2}
+  - {fileID: 2100000, guid: 491998b8ed105534d85cdd6c2da86dbd, type: 2}
+  enemyType: 2

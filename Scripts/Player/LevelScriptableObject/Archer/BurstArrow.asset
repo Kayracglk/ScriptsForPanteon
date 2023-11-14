@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c42bf7ebbc3d14aa077b46924d1fd6, type: 3}
+  m_Name: BurstArrow
+  m_EditorClassIdentifier: 
+  skillType: 0
+  levels:
+  - variables:
+    - textName: Damage
+      value: 1
+    - textName: Angle
+      value: 0
+    - textName: Quantity
+      value: 1
+    - textName: Distance
+      value: 5
+    - textName: KillCount
+      value: 1
+    - textName: Cooldown
+      value: 3
+    levelText: []
+  - variables:
+    - textName: Damage
+      value: 1
+    - textName: Angle
+      value: 60
+    - textName: Quantity
+      value: 3
+    - textName: Distance
+      value: 5.5
+    - textName: KillCount
+      value: 1
+    - textName: Cooldown
+      value: 3
+    levelText:
+    - Damage&+1
+    - Speed&+10%
+    - 
+  - variables:
+    - textName: Damage
+      value: 2
+    - textName: Angle
+      value: 60
+    - textName: Quantity
+      value: 5
+    - textName: Distance
+      value: 5.5
+    - textName: KillCount
+      value: 1
+    - textName: Cooldown
+      value: 2.5
+    levelText:
+    - Arrow Quantity&+2
+    - Cooldown&-0.5s
+    - 
+  - variables:
+    - textName: Damage
+      value: 2
+    - textName: Angle
+      value: 60
+    - textName: Quantity
+      value: 7
+    - textName: Distance
+      value: 6
+    - textName: KillCount
+      value: 2
+    - textName: Cooldown
+      value: 2.5
+    levelText:
+    - Damage&+1
+    - Piercing&+1
+    - Speed&+10%
+  - variables:
+    - textName: Damage
+      value: 4
+    - textName: Angle
+      value: 90
+    - textName: Quantity
+      value: 9
+    - textName: Distance
+      value: 6.5
+    - textName: KillCount
+      value: 2
+    - textName: Cooldown
+      value: 2.5
+    levelText:
+    - Damage&+1
+    - Speed&+10%
+    - Arrow Quantity&+2
+  - variables:
+    - textName: Damage
+      value: 5
+    - textName: Angle
+      value: 100
+    - textName: Quantity
+      value: 11
+    - textName: Distance
+      value: 6.5
+    - textName: KillCount
+      value: 3
+    - textName: Cooldown
+      value: 2
+    levelText:
+    - Damage&+1
+    - Speed&+10%
+    - Cooldown&-0.5s
+  - variables:
+    - textName: Damage
+      value: 6
+    - textName: Angle
+      value: 110
+    - textName: Quantity
+      value: 11
+    - textName: Distance
+      value: 6.5
+    - textName: KillCount
+      value: 3
+    - textName: Cooldown
+      value: 2
+    levelText:
+    - Damage&+1
+    - Piercing&+1
+    - 
+  - variables:
+    - textName: Damage
+      value: 7
+    - textName: Angle
+      value: 130
+    - textName: Quantity
+      value: 13
+    - textName: Distance
+      value: 7
+    - textName: KillCount
+      value: 3
+    - textName: Cooldown
+      value: 2
+    levelText:
+    - Damage&+1
+    - Arrow Quantity&+2
+    - 
+  - variables:
+    - textName: Damage
+      value: 8
+    - textName: Angle
+      value: 170
+    - textName: Quantity
+      value: 17
+    - textName: Distance
+      value: 7
+    - textName: KillCount
+      value: 3
+    - textName: Cooldown
+      value: 1.5
+    levelText:
+    - Damage&+1
+    - Cooldown&-0.5s
+    - 
+  - variables:
+    - textName: Damage
+      value: 11
+    - textName: Angle
+      value: 179
+    - textName: Quantity
+      value: 22
+    - textName: Distance
+      value: 7.5
+    - textName: KillCount
+      value: 4
+    - textName: Cooldown
+      value: 1.5
+    levelText:
+    - Damage&+1
+    - Piercing&+1
+    - Speed&+10%
+  - variables:
+    - textName: Damage
+      value: 9
+    - textName: Angle
+      value: 110
+    - textName: Quantity
+      value: 7
+    - textName: Distance
+      value: 7.5
+    - textName: KillCount
+      value: 4
+    - textName: Cooldown
+      value: 1.5
+    levelText:
+    - Damage&+1
+    - Arrow Quantity&+2

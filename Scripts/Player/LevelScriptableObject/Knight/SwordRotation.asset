@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c42bf7ebbc3d14aa077b46924d1fd6, type: 3}
+  m_Name: SwordRotation
+  m_EditorClassIdentifier: 
+  skillType: 1
+  levels:
+  - variables:
+    - textName: Damage
+      value: 2
+    - textName: Length
+      value: 4
+    - textName: Duration
+      value: 1
+    - textName: Cooldown
+      value: 5
+    levelText: []
+  - variables:
+    - textName: Damage
+      value: 2
+    - textName: Length
+      value: 4.5
+    - textName: Duration
+      value: 1.1
+    - textName: Cooldown
+      value: 4.5
+    levelText:
+    - Duration&+10%
+    - Cooldown&-0.5s
+    - 
+  - variables:
+    - textName: Damage
+      value: 3
+    - textName: Length
+      value: 4.7
+    - textName: Duration
+      value: 1.1
+    - textName: Cooldown
+      value: 4
+    levelText:
+    - Damage&+1
+    - Cooldown&-0.5s
+    - 
+  - variables:
+    - textName: Damage
+      value: 4
+    - textName: Length
+      value: 5.1
+    - textName: Duration
+      value: 1.2
+    - textName: Cooldown
+      value: 4
+    levelText:
+    - Damage&+1
+    - Duration&+10%
+    - Sword length&+10%
+  - variables:
+    - textName: Damage
+      value: 5
+    - textName: Length
+      value: 5.5
+    - textName: Duration
+      value: 1.2
+    - textName: Cooldown
+      value: 3.5
+    levelText:
+    - Damage&+1
+    - Cooldown&-0.5s
+    - 
+  - variables:
+    - textName: Damage
+      value: 5
+    - textName: Length
+      value: 5.7
+    - textName: Duration
+      value: 1.3
+    - textName: Cooldown
+      value: 3.5
+    levelText:
+    - Sword length&+10%
+    - Duration&+10%
+    - 
+  - variables:
+    - textName: Damage
+      value: 6
+    - textName: Length
+      value: 5.9
+    - textName: Duration
+      value: 1.3
+    - textName: Cooldown
+      value: 3
+    levelText:
+    - Damage&+1
+    - Cooldown&-0.5s
+    - 
+  - variables:
+    - textName: Damage
+      value: 6
+    - textName: Length
+      value: 6.1
+    - textName: Duration
+      value: 1.4
+    - textName: Cooldown
+      value: 3
+    levelText:
+    - Sword length&+10%
+    - Duration&+10%
+    - 
+  - variables:
+    - textName: Damage
+      value: 7
+    - textName: Length
+      value: 6.3
+    - textName: Duration
+      value: 1.4
+    - textName: Cooldown
+      value: 2.5
+    levelText:
+    - Damage&+1
+    - Cooldown&-0.5s
+    - 
+  - variables:
+    - textName: Damage
+      value: 6.5
+    - textName: Length
+      value: 3.2
+    - textName: Duration
+      value: 1.5
+    - textName: Cooldown
+      value: 2.5
+    levelText:
+    - Sword length&+10%
+    - Duration&+10%
+    - 

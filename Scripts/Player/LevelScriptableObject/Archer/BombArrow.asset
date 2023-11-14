@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c42bf7ebbc3d14aa077b46924d1fd6, type: 3}
+  m_Name: BombArrow
+  m_EditorClassIdentifier: 
+  skillType: 2
+  level: 0
+  levels:
+  - variables:
+    - textName: Damage
+      value: 2
+    - textName: Range
+      value: 5.5
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 10
+    - textName: ExplosionRadius
+      value: 4
+    - textName: CoolDown
+      value: 10
+    levelText: []
+  - variables:
+    - textName: Damage
+      value: 3
+    - textName: Range
+      value: 5.5
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 20
+    - textName: ExplosionRadius
+      value: 4.8
+    - textName: CoolDown
+      value: 10
+    levelText:
+    - Damage&+1
+    - Explosion radius&+20%
+    - Slowdown rate&-10%
+  - variables:
+    - textName: Damage
+      value: 4
+    - textName: Range
+      value: 6
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 30
+    - textName: ExplosionRadius
+      value: 4.8
+    - textName: CoolDown
+      value: 9
+    levelText:
+    - Damage&+1
+    - Cooldown&-1s
+    - Slowdown rate&-10%
+  - variables:
+    - textName: Damage
+      value: 5
+    - textName: Range
+      value: 6.5
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 30
+    - textName: ExplosionRadius
+      value: 5.6
+    - textName: CoolDown
+      value: 9
+    levelText:
+    - Damage&+1
+    - Range&+10%
+    - Explosion radius&+20%
+  - variables:
+    - textName: Damage
+      value: 6
+    - textName: Range
+      value: 6.5
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 30
+    - textName: ExplosionRadius
+      value: 5.6
+    - textName: CoolDown
+      value: 8
+    levelText:
+    - Damage&+1
+    - Cooldown&-1s
+    - 
+  - variables:
+    - textName: Damage
+      value: 7
+    - textName: Range
+      value: 7
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 40
+    - textName: ExplosionRadius
+      value: 5.6
+    - textName: CoolDown
+      value: 8
+    levelText:
+    - Damage&+1
+    - Range&+10%
+    - Slowdown rate&-10%
+  - variables:
+    - textName: Damage
+      value: 8
+    - textName: Range
+      value: 7
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 40
+    - textName: ExplosionRadius
+      value: 5.6
+    - textName: CoolDown
+      value: 7.5
+    levelText:
+    - Damage&+1
+    - Cooldown&-0,5s
+    - 
+  - variables:
+    - textName: Damage
+      value: 9
+    - textName: Range
+      value: 7.5
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 40
+    - textName: ExplosionRadius
+      value: 6.4
+    - textName: CoolDown
+      value: 7.5
+    levelText:
+    - Damage&+1
+    - Range&+10%
+    - Explosion radius&+20%
+  - variables:
+    - textName: Damage
+      value: 10
+    - textName: Range
+      value: 7.5
+    - textName: Quantity
+      value: 1
+    - textName: SlownessRate
+      value: 50
+    - textName: ExplosionRadius
+      value: 6.4
+    - textName: CoolDown
+      value: 7
+    levelText:
+    - Damage&+1
+    - Cooldown&-0,5s
+    - Slowdown rate&-10%
+  - variables:
+    - textName: Damage
+      value: 10
+    - textName: Range
+      value: 8
+    - textName: Quantity
+      value: 2
+    - textName: SlownessRate
+      value: 50
+    - textName: ExplosionRadius
+      value: 6.4
+    - textName: CoolDown
+      value: 7
+    levelText:
+    - Range&+10%
+    - Quantity&+1
+    - 

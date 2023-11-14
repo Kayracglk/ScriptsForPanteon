@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c42bf7ebbc3d14aa077b46924d1fd6, type: 3}
+  m_Name: Lighting
+  m_EditorClassIdentifier: 
+  skillType: 2
+  levels:
+  - variables:
+    - textName: Damage
+      value: 2
+    - textName: Quantity
+      value: 3
+    - textName: Slowness
+      value: 5
+    - textName: SlowTime
+      value: 0.1
+    - textName: Cooldown
+      value: 10
+    levelText: []
+  - variables:
+    - textName: Damage
+      value: 3
+    - textName: Quantity
+      value: 4
+    - textName: Slowness
+      value: 10
+    - textName: SlowTime
+      value: 0.2
+    - textName: Cooldown
+      value: 10
+    levelText:
+    - Damage&+1
+    - Slowdown rate&+5%
+    - Slowdown time&+0.1s
+  - variables:
+    - textName: Damage
+      value: 3
+    - textName: Quantity
+      value: 5
+    - textName: Slowness
+      value: 10
+    - textName: SlowTime
+      value: 0.2
+    - textName: Cooldown
+      value: 9
+    levelText:
+    - Lightning Amount&+1
+    - Cooldown&-1s
+    - 
+  - variables:
+    - textName: Damage
+      value: 5
+    - textName: Quantity
+      value: 6
+    - textName: Slowness
+      value: 10
+    - textName: SlowTime
+      value: 0.3
+    - textName: Cooldown
+      value: 8
+    levelText:
+    - Damage&+2
+    - Slowdown time&+0.1s
+    - Cooldown&-1s
+  - variables:
+    - textName: Damage
+      value: 7
+    - textName: Quantity
+      value: 7
+    - textName: Slowness
+      value: 15
+    - textName: SlowTime
+      value: 0.3
+    - textName: Cooldown
+      value: 7.5
+    levelText:
+    - Damage&+2
+    - Slowdown rate&+5%
+    - Cooldown&-0.5s
+  - variables:
+    - textName: Damage
+      value: 9
+    - textName: Quantity
+      value: 10
+    - textName: Slowness
+      value: 15
+    - textName: SlowTime
+      value: 0.4
+    - textName: Cooldown
+      value: 7
+    levelText:
+    - Damage&+2
+    - Slowdown time&+0.1s
+    - Cooldown&-0.5s
+  - variables:
+    - textName: Damage
+      value: 11
+    - textName: Quantity
+      value: 13
+    - textName: Slowness
+      value: 20
+    - textName: SlowTime
+      value: 0.4
+    - textName: Cooldown
+      value: 7
+    levelText:
+    - Damage&+2
+    - Lightning Amount&+1
+    - Cooldown&-0.5s
+  - variables:
+    - textName: Damage
+      value: 13
+    - textName: Quantity
+      value: 16
+    - textName: Slowness
+      value: 20
+    - textName: SlowTime
+      value: 0.5
+    - textName: Cooldown
+      value: 6
+    levelText:
+    - Damage&+2
+    - Slowdown time&+0.1s
+    - Cooldown&-1s
+  - variables:
+    - textName: Damage
+      value: 15
+    - textName: Quantity
+      value: 18
+    - textName: Slowness
+      value: 25
+    - textName: SlowTime
+      value: 0.5
+    - textName: Cooldown
+      value: 5.5
+    levelText:
+    - Damage&+2
+    - Lightning Amount&+1
+    - Cooldown&-0.5s
+  - variables:
+    - textName: Damage
+      value: 20
+    - textName: Quantity
+      value: 20
+    - textName: Slowness
+      value: 25
+    - textName: SlowTime
+      value: 0.5
+    - textName: Cooldown
+      value: 5
+    levelText:
+    - Damage&+5
+    - Cooldown&-0.5s
+    - 
